@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#41337e',
+                        accent: "#faca0c"
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Landing Page</title>
+</head>
+
+<body>
+
+    <header class="flex w-full relative justify-end py-3 px-7">
+        <img class="absolute w-[10%] max-w-[100px] left-7 top-0" src="./src/img/logo.png" alt="brand logo">
+
+        <nav class="flex gap-x-5 items-center font-medium">
+            <a href="" class="underline underline-offset-[6px]">OVERVIEW</a>
+            <a href="" class="hover:underline underline-offset-[6px]">WHY CHENNAI?</a>
+            <a href="" class="hover:underline underline-offset-[6px]">PLOT BENEFITS</a>
+            <a href="" class="rounded-full px-4 py-1 bg-primary text-accent">Contact Us</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- hero -->
+        <section>
+            <img src="./src/img/hero.png" alt="hero image">
+        </section>
+
+        <!-- Why -->
+        <section class="py-[6%] max-w-screen-lg mx-auto">
+            <h1 class="font-black text-5xl text-primary text-center">WHY INVEST IN APARTMENTS?</h1>
+            <p class="text-center py-3">Morem ipsum dolor sit amet, consectetur adipiscing elit Nunc vulputate libero et
+                velit interdum, ac
+                aliquet odio mattis. Class aptent taciti sociosqu ad litora toria nostra, per inceptos himenaeos.</p>
+
+            <!-- cards -->
+            <div class="flex flex-col gap-y-[4.5rem] mt-[7%]">
+
+                <!-- card 1-->
+                <div class="flex rounded-r-full bg-primary px-5">
+                    <div class="relative">
+                        <img class="relative -top-5 rounded-r-full max-w-[350px]" src="./src/img/cards/1.png" alt="">
+                    </div>
+                    <div class="text-white px-10 py-5 my-auto">
+                        <h2 class="font-black text-5xl">Lorem ipsum dolor sit amet
+                            consectetur</h2>
+                        <p class="text-sm mt-2">Norem ipsum dolor sit omet, consectetur adipiscing elit. Nunc vulputote
+                            libero et velit interdum„ ac aliquot odio mattis. Closs optent taciti sociosqu
+                            ad litora torquent per conubia nostra, per inceptos himenoeos.</p>
+                    </div>
+                </div>
+
+                <!-- card 2-->
+                <div class="flex rounded-l-full bg-primary px-5">
+                    <div class="text-white px-10 py-5 my-auto">
+                        <h2 class="font-black text-5xl">Lorem ipsum dolor sit amet
+                            consectetur</h2>
+                        <p class="text-sm mt-2">Norem ipsum dolor sit omet, consectetur adipiscing elit. Nunc vulputote
+                            libero et velit interdum„ ac aliquot odio mattis. Closs optent taciti sociosqu
+                            ad litora torquent per conubia nostra, per inceptos himenoeos.</p>
+                    </div>
+
+                    <div class="relative">
+                        <img class="relative -top-5 rounded-l-full max-w-[350px]" src="./src/img/cards/2.png" alt="">
+                    </div>
+
+                </div>
+
+
+                <!-- card 3-->
+                <div class="flex rounded-r-full bg-primary px-5">
+                    <div class="relative">
+                        <img class="relative -top-5 rounded-r-full max-w-[350px]" src="./src/img/cards/3.png" alt="">
+                    </div>
+                    <div class="text-white px-10 py-5 my-auto">
+                        <h2 class="font-black text-5xl">Lorem ipsum dolor sit amet
+                            consectetur</h2>
+                        <p class="text-sm mt-2">Norem ipsum dolor sit omet, consectetur adipiscing elit. Nunc vulputote
+                            libero et velit interdum„ ac aliquot odio mattis. Closs optent taciti sociosqu
+                            ad litora torquent per conubia nostra, per inceptos himenoeos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- booming areas -->
+        <section class="w-full bg-primary py-[6%] text-accent">
+            <div class="max-w-screen-lg mx-auto">
+                <h1 class="font-black text-5xl text-center">BOOMING AREAS</h1>
+                <p class="text-center py-4">Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                    libero
+                    et velit interdum, ac
+                    aliquet odio mattis. Class aptent taciti sociosqu ad litora toria nostra, per inceptos himenaeos.
+                </p>
+
+                <div class="flex border-y-accent border-y-[0.1px] py-3 mt-10 mx-auto text-white">
+                    <ul class="flex gap-x-10 mx-auto">
+                        <li class="underline text-accent underline-offset-[1rem] decoration-2	">North Chennai</li>
+                        <li
+                            class="hover:underline underline-offset-[1rem] decoration-color-accent decoration-2 hover:text-accent">
+                            East
+                            Chennai</li>
+                        <li
+                            class="hover:underline underline-offset-[1rem] decoration-color-accent decoration-2 hover:text-accent">
+                            West
+                            Chennai</li>
+                        <li
+                            class="hover:underline underline-offset-[1rem] decoration-color-accent decoration-2 hover:text-accent">
+                            South
+                            Chennai</li>
+                        <li
+                            class="hover:underline underline-offset-[1rem] decoration-color-accent decoration-2 hover:text-accent">
+                            Central
+                            Chennai</li>
+                    </ul>
+                </div>
+
+                <div class="flex mt-[8%]">
+                    <div class="text-white font-light text-gray-200">
+                        <h3 class="text-3xl font-bold">Sorem ipsum dolor sit amet</h3>
+                        <p class="text-sm mt-3">Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                            libero et velit
+                            interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                            conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                            lobortis. Ut commodo efficitur neque.</p>
+                        <p class="text-sm mt-3">Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                            libero et velit
+                            interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                            conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                            lobortis. Ut commodo efficitur neque.</p>
+                        <p class="text-sm mt-3">Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                            libero et velit
+                            interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                            conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                            lobortis. Ut commodo efficitur neque.</p>
+                    </div>
+                    <div>
+                        <img class="rounded-xl" src="./src/img/chennai.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- amenties -->
+        <section class="py-[6%]">
+            <div class="max-w-screen-lg mx-auto">
+                <h1 class="font-black text-5xl text-center text-primary">KEY AMENTIES</h1>
+                <p class="text-center py-4 max-w-screen-md mx-auto">Morem ipsum dolor sit amet, consectetur adipiscing
+                    elit.
+                    Nunc vulputate
+                    libero
+                    et velit interdum, ac
+                    aliquet odio mattis. Class aptent taciti sociosqu ad litora toria nostra, per inceptos himenaeos.
+                </p>
+
+                <div class="flex mt-6 justify-center items-center gap-x-10">
+                    <svg class="w-[10%] h-[10%] rounded-full border p-2" width="32" height="32" viewBox="0 0 32 32"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.6079 7.00242C11.9194 7.00181 12.2214 7.11031 12.4612 7.30908C12.5962 7.42102 12.7079 7.55848 12.7897 7.71361C12.8715 7.86874 12.9218 8.03849 12.938 8.21312C12.9541 8.38776 12.9355 8.56385 12.8835 8.73132C12.8314 8.89879 12.7468 9.05435 12.6346 9.18908L7.94138 14.8356L25.8161 14.8356C25.8161 14.8356 26.816 15.6316 26.816 16.3356C26.816 17.0396 25.8161 17.8356 25.8161 17.8356L7.94138 17.8356L12.4212 23.4958C12.532 23.6321 12.6147 23.7891 12.6646 23.9575C12.7145 24.126 12.7306 24.3026 12.7121 24.4773C12.6935 24.652 12.6405 24.8213 12.5563 24.9755C12.4721 25.1297 12.3582 25.2657 12.2212 25.3758C12.0833 25.4971 11.9217 25.5887 11.7467 25.6447C11.5717 25.7007 11.387 25.7199 11.2042 25.7011C11.0214 25.6823 10.8445 25.6259 10.6845 25.5355C10.5245 25.4451 10.385 25.3226 10.2746 25.1758L3.83457 17.1757C3.63846 16.9372 3.53125 16.6379 3.53125 16.3291C3.53125 16.0202 3.63846 15.721 3.83457 15.4824L10.5012 7.48242C10.635 7.32106 10.8049 7.19351 10.9972 7.11011C11.1895 7.02671 11.3987 6.98982 11.6079 7.00242Z"
+                            fill="#372C70" />
+                    </svg>
+
+
+                    <div class="flex gap-x-7">
+                        <div>
+                            <img src="/src/img/amenties/1.png" alt="">
+                            <p class="font-bold mt-4 text-lg">INDOOR GAMES</p>
+                        </div>
+
+                        <div>
+                            <img src=" /src/img/amenties/2.png" alt="">
+                            <p class="font-bold mt-4 text-lg">GYMNASIUM</p>
+                        </div>
+
+                        <div>
+                            <img src="/src/img/amenties/3.png" alt="">
+                            <p class="font-bold mt-4 text-lg">BANQUET HALL</p>
+                        </div>
+                    </div>
+
+                    <svg class="w-[10%] h-[10%] rounded-full border p-2" width="32" height="32" viewBox="0 0 32 32"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.7394 25.7056C18.4278 25.7062 18.1259 25.5977 17.886 25.399C17.751 25.287 17.6394 25.1496 17.5576 24.9944C17.4758 24.8393 17.4254 24.6696 17.4093 24.4949C17.3932 24.3203 17.4117 24.1442 17.4638 23.9767C17.5159 23.8092 17.6004 23.6537 17.7127 23.519L22.4059 17.8724H4.53117C4.53117 17.8724 3.53125 17.0764 3.53125 16.3724C3.53125 15.6684 4.53117 14.8724 4.53117 14.8724H22.4059L17.926 9.21229C17.8153 9.0759 17.7326 8.91897 17.6827 8.75052C17.6328 8.58207 17.6166 8.40541 17.6352 8.23071C17.6538 8.056 17.7067 7.8867 17.791 7.73251C17.8752 7.57833 17.9891 7.44232 18.126 7.33229C18.264 7.2109 18.4256 7.11935 18.6006 7.06336C18.7756 7.00738 18.9603 6.98817 19.1431 7.00695C19.3259 7.02573 19.5028 7.08209 19.6628 7.17249C19.8228 7.2629 19.9623 7.38539 20.0727 7.53229L26.5127 15.5323C26.7088 15.7709 26.816 16.0701 26.816 16.379C26.816 16.6878 26.7088 16.987 26.5127 17.2256L19.846 25.2256C19.7123 25.387 19.5424 25.5145 19.3501 25.5979C19.1578 25.6813 18.9486 25.7182 18.7394 25.7056Z"
+                            fill="#372C70" />
+                    </svg>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="flex flex-col bg-primary text-white font-light">
+
+        <div class="flex gap-x-10 py-[5%] mx-auto">
+            <nav class="gap-y-3 flex flex-col">
+                <a href="">Plots in Anna Nagar West
+                </a><a href="">Plots in Anna Nagar East
+                </a><a href="">Plots in Tambaram
+                </a><a href="">Plots in ECR
+                </a>
+            </nav>
+            <nav class="gap-y-3 flex flex-col">
+                <a href="">Plots in OMR
+                </a><a href="">Flats For Sale In Anna Nagar
+                </a>
+                <a href="">Flats Near Mogappair</a><a href="">2bhk Apartments In Anna Nagar
+                </a>
+            </nav>
+            <nav class="gap-y-3 flex flex-col">
+                <a href="">2bhk Apartments In Anna Nagar
+                </a><a href="">Flats Near Mogappair
+                </a><a href="">Plots in ECR
+                </a><a href="">Plots in Tambaram
+                </a>
+            </nav>
+            <nav class="gap-y-3 flex flex-col">
+                <a href="">Plots in OMR
+                </a><a href="">Flats Near Mogappair
+                </a><a href="">Flats For Sale In Anna Nagar
+                </a><a href="">2bhk Apartments In Anna Nagar</a>
+            </nav>
+        </div>
+
+        <div class="border-t flex justify-between mx-auto py-5 border-white w-full max-w-screen-xl">
+            <p>Copyright © 2024 Royal Land & Developers All Rights Reserved</p>
+            <p>Design by 🅱️</p>
+        </div>
+    </footer>
+</body>
+
+</html>
